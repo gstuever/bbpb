@@ -1,0 +1,14 @@
+  // Sass configuration
+  {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Sass Compile",
+        "type": "shell",
+        "command": "node-sass themes/custom/bbpb_bootstrap4/scss/style.scss themes/custom/bbpb_bootstrap4/css/style.css",
+        "group": "build"
+      }
+    ]
+  }
