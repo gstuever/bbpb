@@ -463,7 +463,7 @@ class EmailWebformHandler extends WebformHandlerBase implements WebformHandlerMe
     $form['from']['from_name']['from_name']['#states'] = [
       '!visible' => [
         ':input[name="settings[from_mail][other]"]' => ['value' => ['pattern' => ',']],
-      ]
+      ],
     ];
 
     // Settings: Reply-to.

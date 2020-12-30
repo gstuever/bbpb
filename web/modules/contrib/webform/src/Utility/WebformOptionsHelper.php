@@ -85,7 +85,7 @@ class WebformOptionsHelper {
    * Determine if option text includes a description.
    *
    * @param string $text
-   *   Option text
+   *   Option text.
    *
    * @return bool
    *   TRUE option text includes a description.
@@ -98,7 +98,7 @@ class WebformOptionsHelper {
    * Split option text into an array containing an option's text and description.
    *
    * @param string $text
-   *   Option text
+   *   Option text.
    *
    * @return array
    *   An array containing an option's text and description.

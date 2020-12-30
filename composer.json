@@ -30,7 +30,7 @@
         "drupal/redirect": "^1.6",
         "drupal/simple_sitemap": "^3.8",
         "drupal/social_media_links": "^2.7",
-        "drupal/webform": "6.0.0-beta3",
+        "drupal/webform": "^6.0",
         "drush/drush": "^10.3"
     },
     "conflict": {

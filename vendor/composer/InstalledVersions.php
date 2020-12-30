@@ -14,12 +14,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '0022912e8375fbf3dcb0f9aaf78289edffc17980',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -937,12 +937,12 @@ private static $installed = array (
     ),
     'drupal/recommended-project' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '0022912e8375fbf3dcb0f9aaf78289edffc17980',
     ),
     'drupal/redirect' => 
     array (
@@ -1136,12 +1136,12 @@ private static $installed = array (
     ),
     'drupal/webform' => 
     array (
-      'pretty_version' => '6.0.0-beta3',
-      'version' => '6.0.0.0-beta3',
+      'pretty_version' => '6.0.0',
+      'version' => '6.0.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6.0.0-beta3',
+      'reference' => '6.0.0',
     ),
     'drupal/workflows' => 
     array (

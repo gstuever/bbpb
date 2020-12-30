@@ -373,9 +373,11 @@
           // Set properties.
           var properties = getCardsProgressProperties();
           for (var property in properties) {
-            var attribute = '[data-webform-progress-' + property + ']';
-            var value = properties[property];
-            $progress.find(attribute).html(value);
+            if (propertie.hasOwnProperty(value)) {
+              var attribute = '[data-webform-progress-' + property + ']';
+              var value = properties[property];
+              $progress.find(attribute).html(value);
+            }
           }
 
           // Set <progress> tag [value] and [max] attributes.
@@ -754,7 +756,8 @@
           }
 
           var inputValues = [];
-          var name, type;
+          var name;
+          var type;
           $autoForwardInputs.each(function () {
             name = this.name;
             type = this.type;
@@ -811,7 +814,7 @@
          * @param {jQuery} $input
          *   An jQuery object containing an :input.
          *
-         * @return {{boolean}}
+         * @return {boolean}
          *   TRUE if next button should be hidden
          */
         function inputHasValue($input) {
@@ -829,7 +832,6 @@
             default:
               return $('[name="' + name + '"]').val() ? true : false;
           }
-          return false;
         }
 
         /**
@@ -837,7 +839,7 @@
          *
          * @param {jQuery} $button
          *   A jQuery object containing a <button> or <input type="submit">.
-         * @param string label
+         * @param {string} label
          *   The button's label.
          */
         function setButtonLabel($button, label) {

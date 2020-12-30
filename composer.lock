@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74c6f19197ddf371e1e0b1ba0ba18f14",
+    "content-hash": "a91f78e3cdb27cd0b29ba112b10f8149",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2635,17 +2635,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "6.0.0-beta3",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "6.0.0-beta3"
+                "reference": "6.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-6.0.0-beta3.zip",
-                "reference": "6.0.0-beta3",
-                "shasum": "e3a92cb31164c2ccf07e52b72f8ba880afd30355"
+                "url": "https://ftp.drupal.org/files/projects/webform-6.0.0.zip",
+                "reference": "6.0.0",
+                "shasum": "2528636c9e90fe1623544eee433f102faa0f1b57"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -2693,11 +2693,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.0.0-beta3",
-                    "datestamp": "1608425493",
+                    "version": "6.0.0",
+                    "datestamp": "1608855845",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -7248,9 +7248,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "drupal/webform": 10
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

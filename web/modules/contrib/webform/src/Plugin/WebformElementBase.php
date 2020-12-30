@@ -3724,7 +3724,7 @@ class WebformElementBase extends PluginBase implements WebformElementInterface, 
   }
 
   /**
-   * @inheritDoc
+   * {@inheritdoc}
    */
   public static function trustedCallbacks() {
     return ['preRenderFixStatesWrapper', 'preRenderFixFlexboxWrapper', 'preRenderWebformCompositeFormElement'];

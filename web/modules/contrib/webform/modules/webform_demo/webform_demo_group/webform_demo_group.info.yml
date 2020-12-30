@@ -11,7 +11,7 @@ dependencies:
   - 'webform:webform_node'
   - 'webform:webform_group'
 
-# Information added by Drupal.org packaging script on 2020-12-20
-version: '6.0.0-beta3'
+# Information added by Drupal.org packaging script on 2020-12-25
+version: '6.0.0'
 project: 'webform'
-datestamp: 1608425498
+datestamp: 1608855852

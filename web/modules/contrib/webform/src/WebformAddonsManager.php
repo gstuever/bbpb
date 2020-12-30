@@ -546,14 +546,6 @@ class WebformAddonsManager implements WebformAddonsManagerInterface {
 
     /**************************************************************************/
 
-    // Integrations: Webform AddressFinder.
-    $projects['academic_applications'] = [
-      'title' => $this->t('Academic Applications'),
-      'description' => $this->t('Provides a simple Webform-based system for applying to academic programs.'),
-      'url' => Url::fromUri('https://www.drupal.org/project/academic_applications'),
-      'category' => 'integration',
-    ];
-
     // Integrations: Ansible.
     $projects['ansible'] = [
       'title' => $this->t('Ansible'),
@@ -575,6 +567,14 @@ class WebformAddonsManager implements WebformAddonsManagerInterface {
       'title' => $this->t('Domain Webform'),
       'description' => $this->t('Domain intergration for the Webform module.'),
       'url' => Url::fromUri('https://github.com/h3rj4n/domain_webform'),
+      'category' => 'integration',
+    ];
+
+    // Integration: Drip Webform Handler.
+    $projects['drip_webform_handler'] = [
+      'title' => $this->t('Drip Webform Handler'),
+      'description' => $this->t('Allows you to post submissions to Drip.com.'),
+      'url' => Url::fromUri('https://www.drupal.org/project/drip_webform_handler'),
       'category' => 'integration',
     ];
 
@@ -639,6 +639,14 @@ class WebformAddonsManager implements WebformAddonsManagerInterface {
       'title' => $this->t('Headless Ninja React Webform'),
       'description' => $this->t('With this awesome React component, you can render complete Drupal Webforms in React. With validation, easy custom styling and a modern, clean interface.'),
       'url' => Url::fromUri('https://github.com/headless-ninja/hn-react-webform'),
+      'category' => 'integration',
+    ];
+
+    // Integrations: Mailchimp Webform Handler.
+    $projects['mailchimp_webform_handler'] = [
+      'title' => $this->t('Mailchimp Webform Handler'),
+      'description' => $this->t('Allows you to add a new contact from a webform to a Mailchimp list without enabling a dependent Mailchimp-module.'),
+      'url' => Url::fromUri('https://www.drupal.org/project/mailchimp_webform_handler'),
       'category' => 'integration',
     ];
 

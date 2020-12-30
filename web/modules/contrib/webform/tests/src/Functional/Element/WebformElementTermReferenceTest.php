@@ -78,25 +78,25 @@ class WebformElementTermReferenceTest extends WebformElementBrowserTestBase {
     $this->assertRaw('<label>webform_term_checkboxes_breadcrumb_advanced</label>');
     $this->assertRaw('<ul><li>Parent 1 › Parent 1: Child 1</li><li>Parent 1 › Parent 1: Child 2</li></ul>');
 
-     // Unpublish term:2.
-     Term::load(2)->setUnpublished()->save();
+    // Unpublish term:2.
+    Term::load(2)->setUnpublished()->save();
 
-     $this->drupalGet('/webform/test_element_term_reference');
+    $this->drupalGet('/webform/test_element_term_reference');
 
-     // Check term select tree default.
-     $this->assertRaw('<option value="1">Parent 1</option>');
-     $this->assertNoRaw('<option value="2">-Parent 1: Child 1</option>');
-     $this->assertRaw('<option value="3">-Parent 1: Child 2</option>');
-     $this->assertRaw('<option value="4">-Parent 1: Child 3</option>');
+    // Check term select tree default.
+    $this->assertRaw('<option value="1">Parent 1</option>');
+    $this->assertNoRaw('<option value="2">-Parent 1: Child 1</option>');
+    $this->assertRaw('<option value="3">-Parent 1: Child 2</option>');
+    $this->assertRaw('<option value="4">-Parent 1: Child 3</option>');
 
-     // Check term select breadcrumb default.
-     $this->assertRaw('<option value="1">Parent 1</option>');
-     $this->assertNoRaw('<option value="2">Parent 1 › Parent 1: Child 1</option>');
-     $this->assertRaw('<option value="3">Parent 1 › Parent 1: Child 2</option>');
-     $this->assertRaw('<option value="4">Parent 1 › Parent 1: Child 3</option>');
+    // Check term select breadcrumb default.
+    $this->assertRaw('<option value="1">Parent 1</option>');
+    $this->assertNoRaw('<option value="2">Parent 1 › Parent 1: Child 1</option>');
+    $this->assertRaw('<option value="3">Parent 1 › Parent 1: Child 2</option>');
+    $this->assertRaw('<option value="4">Parent 1 › Parent 1: Child 3</option>');
 
-     // Publish term: 2
-     Term::load(2)->setPublished()->save();
+    // Publish term: 2
+    Term::load(2)->setPublished()->save();
 
     /**************************************************************************/
     // Term select.
