@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0022912e8375fbf3dcb0f9aaf78289edffc17980',
+    'reference' => 'b612bae56e77c04989baf377ca902dfa9d69f73c',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -224,6 +224,15 @@ private static $installed = array (
       array (
         0 => '9.1.0',
       ),
+    ),
+    'drupal/antibot' => 
+    array (
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.4',
     ),
     'drupal/automated_cron' => 
     array (
@@ -733,6 +742,15 @@ private static $installed = array (
         0 => '9.1.0',
       ),
     ),
+    'drupal/honeypot' => 
+    array (
+      'pretty_version' => '2.0.1',
+      'version' => '2.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2.0.1',
+    ),
     'drupal/image' => 
     array (
       'replaced' => 
@@ -942,7 +960,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0022912e8375fbf3dcb0f9aaf78289edffc17980',
+      'reference' => 'b612bae56e77c04989baf377ca902dfa9d69f73c',
     ),
     'drupal/redirect' => 
     array (
